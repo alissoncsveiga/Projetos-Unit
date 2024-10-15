@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="pt-br"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BNCC</title>
+    <link rel="stylesheet" href="./BNCC_files/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Base Nacional Comum Currícular</h1>
+    </header>
+    <main>
+        <section>
+            <input type="text" placeholder="Digite a etapa de ensino">
+            <button type="submit">Buscar</button>
+        </section>
+        <section class="resultados-pesquisa">
+            <div class="item-resultado">
+                <h2>Educação Infantil</h2>
+                <p class="descrição-meta">A expressão educação “pré-escolar”, utilizada no Brasil até a década de 1980, expressava o entendimento de que a Educação Infantil era uma etapa anterior, independente e preparatória para a escolarização, que só teria seu começo no Ensino Fundamental. Situava-se, portanto, fora da educação formal..</p>
+                <a href="http://basenacionalcomum.mec.gov.br/abase/#infantil" target="_blank">Mais Informações</a>
+            </div>
+                    <article class="item-resultado">
+                        <h2>Ensino Fundamental</h2>
+                        <p class="descricao-meta">O Ensino Fundamental, com nove anos de duração, é a etapa mais longa da Educação Básica, atendendo estudantes entre 6 e 14 anos. Há, portanto, crianças e adolescentes que, ao longo desse período, passam por uma série de mudanças relacionadas a aspectos físicos, cognitivos, afetivos, sociais, emocionais, entre outros. Como já indicado nas Diretrizes Curriculares Nacionais para o Ensino Fundamental de Nove Anos (Resolução CNE/CEB nº 7/2010)28, essas mudanças impõem desafios à elaboração de currículos para essa etapa de escolarização, de modo a superar as rupturas que ocorrem na passagem não somente entre as etapas da Educação Básica, mas também entre as duas fases do Ensino Fundamental: Anos Iniciais e Anos Finais.</p>
+                        <a href="http://basenacionalcomum.mec.gov.br/abase/#fundamental" target="_blank">Mais Informações</a>
+                      </article>
+                <article class="item-resultado">
+                  <h2>Ensino Médio</h2>
+                  <p class="descricao-meta">O Ensino Médio é a etapa final da Educação Básica, direito público subjetivo de todo cidadão brasileiro. Todavia, a realidade educacional do País tem mostrado que essa etapa representa um gargalo na garantia do direito à educação. Para além da necessidade de universalizar o atendimento, tem-se mostrado crucial garantir a permanência e as aprendizagens dos estudantes, respondendo às suas demandas e aspirações presentes e futuras.</p>
+                  <a href="http://basenacionalcomum.mec.gov.br/abase/#medio" target="_blank">Mais Informações</a>
+                </article>
+            
+        </section>
+    </main>
+    <footer>
+        <p>2024 - Espaço Pedagógico Super Mente. Todos os direitos reservados</p>
+        <p>Entre Em Contato (79)99874-9440</p>
+    </footer>
+    <script src="./BNCC_files/app.js.baixados"></script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
